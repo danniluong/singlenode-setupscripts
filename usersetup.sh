@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-user="admicp01"
+user="icpuser"
 while getopts ":u:p:" arg; do
     case "${arg}" in
       u)
