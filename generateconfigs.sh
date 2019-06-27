@@ -34,6 +34,7 @@ service_cluster_ip_range: 172.29.0.0/16
 cluster_name: ${cluster_name}
 cluster_CA_domain: ${cluster_ca_domain}
 cluster_domain: cluster.local
+cluster_lb_address: ${cluster_lb_address}
 etcd_extra_args: ["--grpc-keepalive-timeout=0", "--grpc-keepalive-interval=0", "--snapshot-count=10000"]
 etcd_data_dir: "/var/lib/etcd"
 etcd_wal_dir: "/var/lib/etcd-wal"

@@ -1,6 +1,6 @@
 #!/bin/bash
 
-while getopts ":i:d:v:c:l:u:p:o:k:s:f:n:a:" arg; do
+while getopts ":i:d:v:c:l:u:p:o:k:s:f:n:a:b:" arg; do
     case "${arg}" in
       i)
         icp_inception=${OPTARG}
@@ -41,6 +41,9 @@ while getopts ":i:d:v:c:l:u:p:o:k:s:f:n:a:" arg; do
       a)
         cluster_ca_domain=${OPTARG}
         ;;
+      b)
+	cluster_lb_address=${OPTARG}
+	;;
       \?)
         echo "Invalid option : -$OPTARG in commmand $0 $*" >&2
         exit 1
