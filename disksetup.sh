@@ -15,7 +15,7 @@ chown -R icpuser:icpuser /opt/ibm-cloud-private-3.2.0
 echo "Create mountpoint for temp install"
 mkdir -p /tmp/install
 chown -R icpuser:icpuser /tmp/install
-chown -R icpuser:icpuser /u01/tic/tmp
+chown -R icpuser:icpuser /u01/tic/tmp/install
 
 # Create storage point for cluster config
 echo "Create storage point for cluster config"
