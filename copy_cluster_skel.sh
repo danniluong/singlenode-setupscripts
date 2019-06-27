@@ -28,4 +28,4 @@ sudo mv /tmp/icp/cluster/* ${cluster_dir}
 cp ${cluster_dir}/config.yaml ${cluster_dir}/config.yaml-original
 
 echo "Copying SSH private key"
-cp ~/.ssh/id_rsa ${cluster_dir}/ssh_key
+cp /home/icpuser/.ssh/id_rsa ${cluster_dir}/ssh_key

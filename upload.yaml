@@ -1,0 +1,5 @@
+# This yaml is for pushing image to Azure container registry
+
+image_repo: installationimagesicp.azurecr.io/ibmcom
+docker_username: InstallationImagesICP
+docker_password: sTsVDN5+l/thIyVMoupFjlrcw1kJJyrg

@@ -61,7 +61,12 @@ docker_config:
   log-opts:
     max-size: "100m"
     max-file: "10"
-offline_pkg_copy_path: /u02/tic/tmp
-firewall_enabled: false
+offline_pkg_copy_path: /u01/tic/tmp
+firewall_enabled: true
+docker_username: InstallationImagesICP
+docker_password: sTsVDN5+l/thIyVMoupFjlrcw1kJJyrg
+private_registry_enabled: true
+image_repo: installationimagesicp.azurecr.io/ibmcom
+private_registry_server: installationimagesicp.azurecr.io
 
 EOF
