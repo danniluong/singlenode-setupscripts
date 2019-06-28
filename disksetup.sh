@@ -1,5 +1,9 @@
 #!/usr/bin/env bash
 
+echo "Creating directory /u01 and mapping /dev/sdc1"
+mkdir -p  /u01
+mount /dev/sdc1 /u01
+
 echo "Creating directory structure in /u01"
 mkdir -p  /u01/tic/var/lib/docker /u01/tic/var/lib/etcd /u01/tic/var/lib/icp /u01/tic/var/lib/kubelet /u01/tic/var/log/cloudsight /u01/tic/opt/ibm-cloud-private-3.2.0  /u01/tic/var/lib/etcd-wal /u01/tic/var/lib/registry /u01/tic/var/lib/icp/va /u01/tic/tmp/install
 
