@@ -64,10 +64,10 @@ docker_config:
     max-file: "10"
 offline_pkg_copy_path: /u01/tic/tmp
 firewall_enabled: true
-docker_username: InstallationImagesICP
-docker_password: sTsVDN5+l/thIyVMoupFjlrcw1kJJyrg
+docker_username: ICPInstallationImages
+docker_password: aUCPUuuPfb63W=FTK2VCnyNEr3lU7see
 private_registry_enabled: true
-image_repo: installationimagesicp.azurecr.io/ibmcom
-private_registry_server: installationimagesicp.azurecr.io
+image_repo: icpinstallationimages.azurecr.io/ibmcom
+private_registry_server: icpinstallationimages.azurecr.io
 
 EOF
